@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-transform: sentence-case;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    height: 92px;
+    width: 100vw;
+    padding-top:1.2rem ;
+}
+.header{
+    min-height:700px ;
+    width: 100vw;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(./Asset/netflix-front.jpg);
+    background-size: cover;
+    background-position: center;
+    position:relative;
+    padding-bottom: 0.5rem;
+    border-bottom: 0.5rem solid gray;
+}
+.logo img{
+    margin-left: 8rem;
+    margin-top: -1rem;
+    height: 7rem;
+    width: 12rem;
+}
+.right-part{
+    margin-top: 1rem;
+    display: flex;
+    margin-right: 13rem;
+    gap: 2rem;
+}
+.signin button{
+    height: 1.9rem;
+    width: 4.7rem;
+    background-color: #db0001;
+    border-radius: 0.25rem;
+    color: #fff;
+    font-weight: 900;
+    border: none;
+    cursor: pointer;
+}
+.signin button:hover{
+    background-color: #b10505;
+}
+.middle-part{
+    padding-top: 10rem;
+    text-align: center;
+}
+.middle-part h1{
+    font-size: 3.2rem;
+    font: 700;
+    margin-right: 9rem;
+    margin-left: 9rem;
+}
+.middle-part .first-para{
+    font-size: 1.8rem;
+    font-weight:100;
+    margin-bottom: 1rem;
+}
+.middle-part .second-para{
+    font-size: 2rem;
+    margin-bottom: 1.2rem;
+}
+.getStarted{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.middle-part .getStarted .span1{
+    width: 24rem;
+    height: 3.5rem;
+    border:1px solid rgb(131, 129, 129);
+    background-color: rgba(0, 0, 0, 0.75);;
+    text-align: left;
+    padding: 1rem;
+    opacity: 0.7;
+}
+.middle-part .getStarted button{
+        padding: 0.5rem;
+        font-size: 1.5rem;
+        height: 3.5rem;
+        width: 12rem;
+        font-weight: 300;
+        cursor: pointer;
+}
+.right-part .laguage-bar{
+    display: flex;
+    padding: 0.8rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6rem;
+    border: 1px solid rgb(155, 153, 153);
+    border-radius: 0.25rem;
+    height:2rem;   
+}
+.first-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 31rem;
+    background-color: #000;
+    padding:10rem;
+    border-bottom: 0.5rem solid gray;
+}
+.first-part .first-part-h2{
+    font-size: 3.5rem; 
+}
+.first-part .first-part-p{
+    line-height: 1.2;
+    font-size: 1.5rem;
+    opacity: 0.8;
+}
+.first-part .right img{
+    max-width: 100%;
+    max-height: 24rem;
+}
+.second-part .left h2{
+    font-size: 3.2rem; 
+    line-height: 1;
+}
+.second-part .left p{
+    font-size: 1.5rem; 
+    opacity: 0.8;
+}
+.third-part .left h2{
+    font-size: 3.5rem;
+}
+.third-part .left p{
+    font-size: 1.5rem;
+     opacity: 0.8;
+}
+.fourth-part .left h2{
+    font-size: 3.2rem;
+     line-height: 1;
+}
+.fourth-part .left p{
+    font-size: 1.5rem;
+    opacity: 0.8
+}
+.middle-part2{
+    margin-top: -10rem;
+}
+
+footer .faq{
+    width: 100%;
+    min-height: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000;
+    padding: 4.5rem;
+    border-bottom: 0.5rem solid gray;
+    
+}
+footer .faq h3{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+details{
+    min-height: 5rem;
+    width:62rem;
+    padding:1rem;
+    cursor: pointer;
+    max-height: 0;
+    overflow: visible;
+    appearance: none;
+    margin-bottom:0.5rem ;
+    border: 1px solid #474545;
+    background-color: #474545;
+}
+details[open]{
+    max-height: 100%;
+}
+summary::after{
+    content: "+";
+    display: inline-block;
+    font-size: 40px;
+    position: absolute;
+    right:12rem;
+    transition: transform 0.3s;
+}
+details[open] summary::after{
+    transform: rotate(135deg);
+}
+summary{
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid #000;
+    display:inline-block;
+    width: 100%;
+    padding-bottom:2.8rem;
+}
+summary::marker {
+    content: "";
+}
+
+.faq-bottom-part{
+    margin-top: 2.5rem;
+}
+.faq-bottom-part p{
+    margin-bottom:1rem;
+    font-size:1.3rem;
+}
+.main-footer{
+    background-color: #000;
+    padding: 5rem 7rem 5rem 7rem;
+}
+.main-footer .footer-tags{
+    margin-top: 2rem;
+    margin-right: 6rem;
+    display: flex;
+    justify-content:space-between;
+    text-decoration: underline;
+}
+.col{
+    font-size: small;
+    opacity: 0.75;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.lang-bottom{
+    margin-top: 2rem;
+    margin-bottom:2rem ;
+    display: flex;
+    padding: 0.8rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6rem;
+    border: 1px solid rgb(155, 153, 153);
+    border-radius: 0.25rem;
+    height:2rem;   
+    width: 123px;
+}
+@media (max-width:650px){
+    .getStarted{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav{
+        gap:4.5rem;
+        display: flex;
+        justify-content: space-evenly;
+    
+    }
+    .nav .right-part .laguage-bar .language{
+        display: none;
+    }
+    .nav .right-part .signin{
+        margin-right:-4rem ;
+       
+    }
+    .nav .right-part .language{
+        margin-top: -0.8rem;
+    }
+    .nav img{
+        width:9rem;
+        height: 6rem;
+    }
+    
+    .header .middle-part h1{
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+    header .middle-part .getStarted .span1{
+        width: 21rem;
+    }
+    .middle-part .second-para{
+        margin-top: 0rem;
+    }
+    header .middle-part .getStarted button{
+        width:9rem;
+        font-size: 1.1rem;
+    }
+    main .first-part{
+        display: flex;
+        flex-direction:column;
+        padding: 2.5rem;
+        text-align: center;
+    }
+    main .first-part .first-part-h2{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    main .first-part .right img{
+        margin-top: -5rem;
+    }
+    main .second-part .left{
+        order: 1;
+    }
+    main .second-part .left h2{
+        font-size: 2rem;
+    }
+    main .second-part .left p{
+        font-size: 1rem;
+    }
+    main .second-part .right{
+        order: 2;
+    }
+    main .third-part .left h2{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    main .fourth-part .left{
+        order: 1;
+    }
+    main .fourth-part .right{
+        order: 2;
+    }
+    main .fourth-part .left h2{
+        font-size: 2rem;
+    }
+    main .fourth-part .left p{
+        margin-bottom: 2rem;
+    }
+    footer .middle-part2{
+        margin-top: 5rem;
+    }
+    footer .faq{
+        padding: 1.5rem;
+    }
+    footer .faq h3{
+        text-align: center;
+        font-size: 2rem !important; 
+    }
+    footer .faq details{
+        width: 22rem;
+        min-height: 4rem;
+    }
+    footer .faq-bottom-part p{
+        margin-bottom:1rem;
+        font-size:0.8rem;
+    }
+    footer summary::after{
+        right:2rem;
+        margin-top: -0.8rem;
+    }
+    footer .middle-part{
+        padding: 2rem;
+    }
+    footer .main-footer{
+        padding: 2rem !important;
+    }
+    footer .main-footer .footer-tags .col{
+        margin-right: 2rem;
+    }
+}
