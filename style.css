@@ -6,6 +6,10 @@
     font-family: 'Poppins', sans-serif;
     text-transform: sentence-case;
 }
+html,body{
+    width: 100%;
+    overflow-x: hidden;
+}
 .nav{
     display: flex;
     justify-content: space-between;
